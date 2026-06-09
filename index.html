@@ -178,6 +178,14 @@
   #contact{background:var(--paper);text-align:center;}
   #contact h2{font-size:clamp(28px,4vw,42px);}
   .contact-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px;}
+  .downloads{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:34px;}
+  .dl-card{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 20px;text-decoration:none;box-shadow:var(--shadow);transition:transform .2s,border-color .2s;text-align:left;min-width:268px;}
+  .dl-card:hover{transform:translateY(-2px);border-color:var(--teal-deep);}
+  .dl-ic{width:44px;height:44px;border-radius:11px;background:var(--navy);color:var(--teal);display:grid;place-items:center;
+    font-family:"Space Mono",monospace;font-weight:700;font-size:12px;flex:none;}
+  .dl-card .t{display:block;font-weight:700;color:var(--ink);font-size:15px;}
+  .dl-card .s{display:block;font-size:12.5px;color:var(--muted);margin-top:2px;}
   .btn-dark{background:var(--navy);color:#fff;}
   .btn-dark:hover{background:var(--ink-2);transform:translateY(-2px);}
   .btn-line{border:1px solid var(--line);color:var(--ink);background:var(--card);}
@@ -229,7 +237,7 @@
   <div class="hero-inner">
     <p class="eyebrow">Strategic Programs &amp; AI Transformation Leader</p>
     <h1>Alok Deo Singh<span class="dot">.</span></h1>
-    <p class="lede">Two decades of turning enterprise strategy into delivered outcomes — from mainframe migrations and a 1M policy insurance platform to avionics hardware and AI-native products built on Claude and RAG.</p>
+    <p class="lede">Three decades of turning enterprise strategy into delivered outcomes — from mainframe migrations and a 1M-policy insurance platform to avionics hardware and AI-native products built on Claude and RAG.</p>
     <div class="hero-meta">
       <span><i class="pin"></i> Noida, India</span>
       <span>PMP · CSM · CDAIO (ISB)</span>
@@ -237,7 +245,8 @@
     </div>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#career">Explore the timeline</a>
-      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      <a class="btn btn-ghost" href="assets/Alok-Deo-Singh-Resume.docx" download>Download résumé</a>
+      <a class="btn btn-ghost" href="assets/Alok-Deo-Singh-Pitch.pdf" download>One-page pitch (PDF)</a>
     </div>
   </div>
   <div class="scroll-hint">scroll ↓</div>
@@ -271,7 +280,7 @@
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">02 — The journey</p>
-      <h2>From mainframes in 2003 to AI programs in 2026.</h2>
+      <h2>From a B.Sc. in 1996 to AI programs in 2026.</h2>
       <p>Every role, client, and credential — in sequence. Switch views, or flip the order.</p>
     </div>
     <div class="toggle-row">
@@ -322,7 +331,16 @@
       <a class="btn btn-dark" href="mailto:singhalokdeo@gmail.com">singhalokdeo@gmail.com</a>
       <a class="btn btn-line" href="tel:+919711269329">+91 97112 69329</a>
       <a class="btn btn-line" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-line" href="assets/Alok-Deo-Singh-Resume.docx" download>Download résumé</a>
+    </div>
+    <div class="downloads">
+      <a class="dl-card" href="assets/Alok-Deo-Singh-Resume.docx" download>
+        <span class="dl-ic">DOC</span>
+        <span><span class="t">Detailed résumé</span><span class="s">Full career history · Word (.docx)</span></span>
+      </a>
+      <a class="dl-card" href="assets/Alok-Deo-Singh-Pitch.pdf" download>
+        <span class="dl-ic">PDF</span>
+        <span><span class="t">One-page pitch</span><span class="s">The highlights at a glance · PDF</span></span>
+      </a>
     </div>
   </div>
 </section>

@@ -14,7 +14,8 @@ to GitHub Pages by simply committing the files. There is **no blog page**.
 
 ```
 index.html                          The whole site (markup, styles, script, data)
-assets/Alok-Deo-Singh-Resume.docx   Downloadable résumé (linked from the page)
+assets/Alok-Deo-Singh-Resume.docx   Downloadable detailed résumé (linked from the page)
+assets/Alok-Deo-Singh-Pitch.pdf     Downloadable one-page pitch (linked from the page)
 .nojekyll                            Tells GitHub Pages to serve files as-is
 README.md                           This file
 ```
